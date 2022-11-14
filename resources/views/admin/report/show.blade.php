@@ -48,7 +48,7 @@
                                             <th>@lang('messages.Transfer Amount')</th>
                                             <th>@lang('messages.Total Balance')</th>
                                             <th>@lang('messages.Remark')</th>
-                                            <th>@lang('messages.Remarkss')</th>
+
 
 
                                         </tr>
