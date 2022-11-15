@@ -13,7 +13,7 @@
 
         <div class="pagetitle">
 
-            <div class="content-wrapper" STYLE="height: 150%; width: 2180px;">
+            <div class="content-wrapper card" STYLE="height: 150%; width: 2180px;">
 
 @include('flash_message')
                 <!-- Main content -->
@@ -25,7 +25,7 @@
                             <div class="col-md-6">
                                 <!-- general form elements -->
                                 <div class="card card" style="background-color: #f4f6f9">
-                                    <div class="card-header">
+                                    <div class="card-header" style="margin-top: 20px">
                                         <h3 class="card-title" style="margin: -10px;"><b> @lang('messages.Category Add') </b></h3>
                                     </div>
                                     <!-- /.card-header -->

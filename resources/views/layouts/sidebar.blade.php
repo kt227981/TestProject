@@ -65,7 +65,7 @@
         <li class="nav-heading">@lang('messages.Report')</li>
 
         <li class="nav-item">
-            <a class="nav-link collapsed" href="">
+            <a class="nav-link collapsed" href="{{route('report')}}">
                 <i class="bi bi-person"></i>
                 <span>@lang('messages.Report')</span>
             </a>

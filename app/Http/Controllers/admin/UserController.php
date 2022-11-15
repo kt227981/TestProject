@@ -116,6 +116,7 @@ class UserController extends Controller
     {
         $data = User::find($id);
         $data->delete();
+
         return redirect()->route('user.show')->with(['danger'=>'User Destroy Successfully']);
     }
 

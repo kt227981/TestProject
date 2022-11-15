@@ -13,7 +13,7 @@
 
         <div class="pagetitle">
 
-            <div class="content-wrapper" STYLE="height: 10%; width: 2180px;">
+            <div class="content-wrapper card" STYLE="height: 10%; width: 2180px;">
 
 
                 <!-- Main content -->
@@ -25,7 +25,7 @@
                             <div class="col-md-6">
                                 <!-- general form elements -->
                                 <div class="card card" style="background-color: #f4f6f9">
-                                    <div class="card-header">
+                                    <div class="card-header" style="margin-top: 20px">
                                         <h3 class="card-title" style="margin: -10px;"><b> @lang('messages.Users Update') </b></h3>
                                     </div>
                                     <!-- /.card-header -->
@@ -49,7 +49,7 @@
                                                         <input id="profile_image" type="file" class="form-control @error('profile_image') is-invalid @enderror" name="profile_image" value="{{ $value['profile_image'] }}" required autocomplete="profile_image" >
                                                         <span style="color: red">@error('profile_image'){{$message}}@enderror</span>
                                                     </div>
-                                                    <img src="{{asset('storage/profile_image/'.$value->profile_image)}}" height="70px" width="70px" alt="user">
+                                                    <img src="{{asset('storage/profile_image/'.$value->profile_image)}}" height="70px" width="70px"  alt="user" style="border-radius: 22px">
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">

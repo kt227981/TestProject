@@ -108,6 +108,7 @@ return [
     'From Transfer Amount' => 'From Transfer Amount',
     'To Transfer Amount' => 'To Transfer Amount',
     'Total Balance' => 'Total Balance',
+    'Excel' => 'Excel',
 
 
 

@@ -12,6 +12,8 @@ class Transfer extends Model
 
     public $table='transfer';
 
+
+
     protected $fillable = [
         'user_id',
         'to_account_id',
@@ -31,4 +33,8 @@ class Transfer extends Model
     public function from_account(){
         return $this->belongsTo(Account::class,'from_account_id');
     }
+
+
+
+
 }

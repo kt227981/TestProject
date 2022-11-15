@@ -85,3 +85,6 @@ Route::post('transfer/update/{id}',[\App\Http\Controllers\admin\TransferControll
 Route::get('transfer/destroy/{id}',[\App\Http\Controllers\admin\TransferController::class,'destroy'])->name('transfer/destroy');
 
 Route::get('report',[\App\Http\Controllers\admin\ReportController::class,'show'])->name('report');
+
+//Route::post('/import',[\App\Http\Controllers\admin\CategoryController::class,'import'])->name('import');
+//Route::get('/export-users',[\App\Http\Controllers\admin\CategoryController::class,'export'])->name('export');

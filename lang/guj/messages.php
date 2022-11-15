@@ -109,6 +109,7 @@ return [
     'From Transfer Amount' =>  'ટ્રાન્સફરની રકમમાંથી',
     'To Transfer Amount' =>  'રકમ ટ્રાન્સફર કરવા માટે',
     'Total Balance' =>  'કુલ બેલેન્સ',
+    'Excel' =>  'એક્સેલ',
 
 
 

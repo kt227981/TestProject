@@ -2,9 +2,13 @@
 
 namespace App\Http\Controllers\admin;
 
+use App\Exports\ExportCategory;
 use App\Http\Controllers\Controller;
+use App\Imports\ImportCategory;
 use App\Models\admin\Category;
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Excel;
+
 
 class CategoryController extends Controller
 {
@@ -109,7 +113,16 @@ class CategoryController extends Controller
     }
 
 
-
+//    public function import(Request $request){
+//        Excel::import(new ImportCategory(), $request->file('file')->store('temp'));
+//        return back();
+//    }
+//
+//    public function export(){
+//
+//        return Excel::download(new ExportCategory(), 'category-collection.xlsx');
+//
+//    }
 
 
 
